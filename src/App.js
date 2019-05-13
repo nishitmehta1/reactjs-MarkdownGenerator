@@ -21,9 +21,9 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App container">
-        <TextArea className='row' value={this.state.input} handleChange={this.handleChange}></TextArea>
-        <Markdowned input={this.state.input}></Markdowned>
+      <div className="App">
+        <TextArea value={this.state.input} handleChange={this.handleChange} />
+        <Markdowned input={this.state.input} />
       </div>
     );
   }

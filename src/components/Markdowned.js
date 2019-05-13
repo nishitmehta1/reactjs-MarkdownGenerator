@@ -5,8 +5,8 @@ import './markdowned.css';
 class Markdowned extends Component {
   render() {
     return (
-      <div className="markdowned container col-md-8">
-       <ReactMarkdown className="col-md-8 text-left text-wrap container" source={this.props.input}></ReactMarkdown>
+      <div className="markdowned__component col-md-6 markdowned">
+       <ReactMarkdown className="markdown text-left text-wrap" source={this.props.input}></ReactMarkdown>
       </div>
     );
   }

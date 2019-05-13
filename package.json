@@ -1,7 +1,7 @@
 {
   "name": "react-markdowngenerator",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://nishitmehta1.github.io/reactjs-MarkdownGenerator/",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

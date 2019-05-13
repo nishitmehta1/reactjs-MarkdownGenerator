@@ -8,8 +8,8 @@ class TextArea extends Component {
   }
   render() {
     return (
-      <div className="textarea container col-md-8">
-        <textarea name="text" id="textarea" cols="100" rows="10" value={this.props.value} onChange={this.handleChange.bind(this)}></textarea>
+      <div className="textArea__component col-md-6 textarea">
+        <textarea name="text" id="textarea" cols="85" rows="25" value={this.props.value} onChange={this.handleChange.bind(this)}></textarea>
       </div>
     );
   }
